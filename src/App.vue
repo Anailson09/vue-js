@@ -1,7 +1,7 @@
 <script setup>
   import { reactive } from 'vue';
-  import Cabecalho from './components/cabecalho.vue'
-  import Formulario from './components/formulario.vue'
+  import Cabecalho from './components/CabecalhoTemp.vue'
+  import Formulario from './components/FormularioNew.vue'
   import ListaDeTarefas from './components/ListaDeTarefas.vue'
 
   const estado = reactive({
@@ -61,12 +61,3 @@
 </div>
   </template>
 
-
-
-
-<style scoped>
-
-.done{
-  text-decoration: line-through;
-}
-</style>
